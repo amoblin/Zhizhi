@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773833EE7318AB8E1AAFD6F5 /* libPods-ZhizhiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD4228E7F85191EE9CD5679 /* libPods-ZhizhiTests.a */; };
+		AB1271FD65304ED7D35F883D /* libPods-Zhizhi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FF76FB26187054AB73E04E /* libPods-Zhizhi.a */; };
 		DAA4E5DA1CCDF8B30032DDB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E5D91CCDF8B30032DDB3 /* AppDelegate.swift */; };
 		DAA4E5DC1CCDF8B30032DDB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E5DB1CCDF8B30032DDB3 /* ViewController.swift */; };
 		DAA4E5DF1CCDF8B30032DDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E5DD1CCDF8B30032DDB3 /* Main.storyboard */; };
@@ -34,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33FF76FB26187054AB73E04E /* libPods-Zhizhi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zhizhi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FCF64F1DE54CE5FB82EE1E /* Pods-ZhizhiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhizhiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhizhiTests/Pods-ZhizhiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BD4228E7F85191EE9CD5679 /* libPods-ZhizhiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhizhiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB3BF69751D7C28A98DD018 /* Pods-ZhizhiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhizhiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhizhiTests/Pods-ZhizhiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC49AEE0B818022E23A4D30D /* Pods-Zhizhi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhizhi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zhizhi/Pods-Zhizhi.release.xcconfig"; sourceTree = "<group>"; };
+		CB62FD63EEB24C2A5CA06E65 /* Pods-Zhizhi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhizhi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zhizhi/Pods-Zhizhi.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8FC64B1CD0286800022063 /* Zhizhi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zhizhi-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAA4E5D61CCDF8B30032DDB3 /* Zhizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zhizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA4E5D91CCDF8B30032DDB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA4E5DB1CCDF8B30032DDB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1271FD65304ED7D35F883D /* libPods-Zhizhi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773833EE7318AB8E1AAFD6F5 /* libPods-ZhizhiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2331E9C233E27DC41C3433E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BF69751D7C28A98DD018 /* Pods-ZhizhiTests.debug.xcconfig */,
+				76FCF64F1DE54CE5FB82EE1E /* Pods-ZhizhiTests.release.xcconfig */,
+				CB62FD63EEB24C2A5CA06E65 /* Pods-Zhizhi.debug.xcconfig */,
+				AC49AEE0B818022E23A4D30D /* Pods-Zhizhi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA2B2DDF5F05EA48754F2EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD4228E7F85191EE9CD5679 /* libPods-ZhizhiTests.a */,
+				33FF76FB26187054AB73E04E /* libPods-Zhizhi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAA4E5CD1CCDF8B30032DDB3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				DAA4E5ED1CCDF8B30032DDB3 /* ZhizhiTests */,
 				DAA4E5F81CCDF8B30032DDB3 /* ZhizhiUITests */,
 				DAA4E5D71CCDF8B30032DDB3 /* Products */,
+				C2331E9C233E27DC41C3433E /* Pods */,
+				DA2B2DDF5F05EA48754F2EC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +136,7 @@
 				DAA4E5E01CCDF8B30032DDB3 /* Assets.xcassets */,
 				DAA4E5E21CCDF8B30032DDB3 /* LaunchScreen.storyboard */,
 				DAA4E5E51CCDF8B30032DDB3 /* Info.plist */,
+				DA8FC64B1CD0286800022063 /* Zhizhi-Bridging-Header.h */,
 			);
 			path = Zhizhi;
 			sourceTree = "<group>";
@@ -132,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA4E5FE1CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "Zhizhi" */;
 			buildPhases = (
+				A446FF45F6884E78DB09D00D /* Check Pods Manifest.lock */,
 				DAA4E5D21CCDF8B30032DDB3 /* Sources */,
 				DAA4E5D31CCDF8B30032DDB3 /* Frameworks */,
 				DAA4E5D41CCDF8B30032DDB3 /* Resources */,
+				F9570993C8CB45C61DF8C504 /* Embed Pods Frameworks */,
+				05FB336741F833E36626EDE3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA4E6011CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiTests" */;
 			buildPhases = (
+				48224216742A46E8F5312E9B /* Check Pods Manifest.lock */,
 				DAA4E5E61CCDF8B30032DDB3 /* Sources */,
 				DAA4E5E71CCDF8B30032DDB3 /* Frameworks */,
 				DAA4E5E81CCDF8B30032DDB3 /* Resources */,
+				A3B4DDF483A76D929A0EABB6 /* Embed Pods Frameworks */,
+				F391B01BFFC45EFC8BC9BCDD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +290,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05FB336741F833E36626EDE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhizhi/Pods-Zhizhi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48224216742A46E8F5312E9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B4DDF483A76D929A0EABB6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhizhiTests/Pods-ZhizhiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A446FF45F6884E78DB09D00D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F391B01BFFC45EFC8BC9BCDD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhizhiTests/Pods-ZhizhiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9570993C8CB45C61DF8C504 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zhizhi/Pods-Zhizhi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAA4E5D21CCDF8B30032DDB3 /* Sources */ = {
@@ -399,28 +532,36 @@
 		};
 		DAA4E5FF1CCDF8B30032DDB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB62FD63EEB24C2A5CA06E65 /* Pods-Zhizhi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Zhizhi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.Zhizhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zhizhi/Zhizhi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DAA4E6001CCDF8B30032DDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC49AEE0B818022E23A4D30D /* Pods-Zhizhi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Zhizhi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.Zhizhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zhizhi/Zhizhi-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		DAA4E6021CCDF8B30032DDB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB3BF69751D7C28A98DD018 /* Pods-ZhizhiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZhizhiTests/Info.plist;
@@ -433,6 +574,7 @@
 		};
 		DAA4E6031CCDF8B30032DDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FCF64F1DE54CE5FB82EE1E /* Pods-ZhizhiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZhizhiTests/Info.plist;
@@ -484,6 +626,7 @@
 				DAA4E6001CCDF8B30032DDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA4E6011CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +635,7 @@
 				DAA4E6031CCDF8B30032DDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA4E6041CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +644,7 @@
 				DAA4E6061CCDF8B30032DDB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let network = WANetwork.sharedInstance()
+        network.apiRoot = "http://news-at.zhihu.com"
+        let api = "/api/4/news/latest"
+        network.requestWithPath(api, method: "GET", params: nil, success: { (result) in
+            print(result)
+            }, failure: { (response, error) in
+                print(error)
+        })
     }
 
     override func didReceiveMemoryWarning() {
