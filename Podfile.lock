@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DDBrick (1.0):
+    - JSONModel
+    - Masonry
+  - JSONModel (1.2.0)
+  - Masonry (1.0.0)
+  - PXAlertView (0.1.1)
+  - SVProgressHUD (2.0.3)
+  - WANetwork (0.2):
+    - AFNetworking (~> 2.5)
+    - DDBrick
+    - PXAlertView
+    - SVProgressHUD
+
+DEPENDENCIES:
+  - DDBrick
+  - WANetwork (from `https://raw.githubusercontent.com/amoblin/WANetwork/master/WANetwork.podspec`)
+
+EXTERNAL SOURCES:
+  WANetwork:
+    :podspec: https://raw.githubusercontent.com/amoblin/WANetwork/master/WANetwork.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DDBrick: 718ba5ddeb856bc5220e7c9e687c46c289db29d6
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  PXAlertView: bb8a7e6bb95f73fe3fe091cacd279b683460f084
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  WANetwork: 74d2696e1db4534202e6a16c2cc7c9ed9802c955
+
+COCOAPODS: 0.39.0
