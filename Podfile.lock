@@ -20,12 +20,16 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - DDBrick (1.0):
+  - DDBrick (1.1):
     - JSONModel
     - Masonry
+    - SDWebImage
   - JSONModel (1.2.0)
   - Masonry (1.0.0)
   - PXAlertView (0.1.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
   - SVProgressHUD (2.0.3)
   - WANetwork (0.2):
     - AFNetworking (~> 2.5)
@@ -43,10 +47,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  DDBrick: 718ba5ddeb856bc5220e7c9e687c46c289db29d6
+  DDBrick: 7b591bc8defbe385bd5c4aee6c7af729ab298415
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
   Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
   PXAlertView: bb8a7e6bb95f73fe3fe091cacd279b683460f084
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   WANetwork: 74d2696e1db4534202e6a16c2cc7c9ed9802c955
 

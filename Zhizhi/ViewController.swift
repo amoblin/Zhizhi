@@ -8,26 +8,37 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: DDBaseTableViewController {
+    let network = WANetwork.sharedInstance()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let network = WANetwork.sharedInstance()
         network.apiRoot = "http://news-at.zhihu.com"
-        let api = "/api/4/news/latest"
-        network.requestWithPath(api, method: "GET", params: nil, success: { (result) in
+        
+    }
+    
+    override func refreshDataForce() {
+        super.refreshDataForce()
+        network.requestWithPath("/api/4/news/latest", method: "GET", params: nil, success: { (result) in
             print(result)
+            self.presentData(result as! [String:AnyObject])
             }, failure: { (response, error) in
                 print(error)
         })
+    }
+    
+    func presentData(result:[String:AnyObject]) {
+        let bannerData = DDBannerTableViewData()
+        bannerData.dataArray = result["top_stories"] as! Array
+        self.dataArray = [bannerData]
+        self.tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
