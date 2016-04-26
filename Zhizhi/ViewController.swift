@@ -15,7 +15,7 @@ class ViewController: DDBaseTableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         network.apiRoot = "http://news-at.zhihu.com"
-        
+        self.refreshDataForce()
     }
     
     override func refreshDataForce() {
@@ -31,7 +31,13 @@ class ViewController: DDBaseTableViewController {
     func presentData(result:[String:AnyObject]) {
         let bannerData = DDBannerTableViewData()
         bannerData.dataArray = result["top_stories"] as! Array
-        self.dataArray = [bannerData]
+        self.dataArray.addObject(bannerData)
+        for story in result["stories"] as! [AnyObject]{
+            let data = DDAppStoreTableViewData()
+            data.title = story["title"] as! String
+            data.image = (story["images"] as! Array).first
+            self.dataArray.addObject(data)
+        }
         self.tableView.reloadData()
     }
 
