@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAA4E5DA1CCDF8B30032DDB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E5D91CCDF8B30032DDB3 /* AppDelegate.swift */; };
+		DAA4E5DC1CCDF8B30032DDB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E5DB1CCDF8B30032DDB3 /* ViewController.swift */; };
+		DAA4E5DF1CCDF8B30032DDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E5DD1CCDF8B30032DDB3 /* Main.storyboard */; };
+		DAA4E5E11CCDF8B30032DDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E5E01CCDF8B30032DDB3 /* Assets.xcassets */; };
+		DAA4E5E41CCDF8B30032DDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA4E5E21CCDF8B30032DDB3 /* LaunchScreen.storyboard */; };
+		DAA4E5EF1CCDF8B30032DDB3 /* ZhizhiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E5EE1CCDF8B30032DDB3 /* ZhizhiTests.swift */; };
+		DAA4E5FA1CCDF8B30032DDB3 /* ZhizhiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E5F91CCDF8B30032DDB3 /* ZhizhiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA4E5EB1CCDF8B30032DDB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA4E5CE1CCDF8B30032DDB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA4E5D51CCDF8B30032DDB3;
+			remoteInfo = Zhizhi;
+		};
+		DAA4E5F61CCDF8B30032DDB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA4E5CE1CCDF8B30032DDB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA4E5D51CCDF8B30032DDB3;
+			remoteInfo = Zhizhi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAA4E5D61CCDF8B30032DDB3 /* Zhizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zhizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA4E5D91CCDF8B30032DDB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAA4E5DB1CCDF8B30032DDB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAA4E5DE1CCDF8B30032DDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA4E5E01CCDF8B30032DDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA4E5E31CCDF8B30032DDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA4E5E51CCDF8B30032DDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA4E5EA1CCDF8B30032DDB3 /* ZhizhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhizhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA4E5EE1CCDF8B30032DDB3 /* ZhizhiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhizhiTests.swift; sourceTree = "<group>"; };
+		DAA4E5F01CCDF8B30032DDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA4E5F51CCDF8B30032DDB3 /* ZhizhiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhizhiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA4E5F91CCDF8B30032DDB3 /* ZhizhiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhizhiUITests.swift; sourceTree = "<group>"; };
+		DAA4E5FB1CCDF8B30032DDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA4E5D31CCDF8B30032DDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA4E5E71CCDF8B30032DDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA4E5F21CCDF8B30032DDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAA4E5CD1CCDF8B30032DDB3 = {
+			isa = PBXGroup;
+			children = (
+				DAA4E5D81CCDF8B30032DDB3 /* Zhizhi */,
+				DAA4E5ED1CCDF8B30032DDB3 /* ZhizhiTests */,
+				DAA4E5F81CCDF8B30032DDB3 /* ZhizhiUITests */,
+				DAA4E5D71CCDF8B30032DDB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA4E5D71CCDF8B30032DDB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA4E5D61CCDF8B30032DDB3 /* Zhizhi.app */,
+				DAA4E5EA1CCDF8B30032DDB3 /* ZhizhiTests.xctest */,
+				DAA4E5F51CCDF8B30032DDB3 /* ZhizhiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA4E5D81CCDF8B30032DDB3 /* Zhizhi */ = {
+			isa = PBXGroup;
+			children = (
+				DAA4E5D91CCDF8B30032DDB3 /* AppDelegate.swift */,
+				DAA4E5DB1CCDF8B30032DDB3 /* ViewController.swift */,
+				DAA4E5DD1CCDF8B30032DDB3 /* Main.storyboard */,
+				DAA4E5E01CCDF8B30032DDB3 /* Assets.xcassets */,
+				DAA4E5E21CCDF8B30032DDB3 /* LaunchScreen.storyboard */,
+				DAA4E5E51CCDF8B30032DDB3 /* Info.plist */,
+			);
+			path = Zhizhi;
+			sourceTree = "<group>";
+		};
+		DAA4E5ED1CCDF8B30032DDB3 /* ZhizhiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA4E5EE1CCDF8B30032DDB3 /* ZhizhiTests.swift */,
+				DAA4E5F01CCDF8B30032DDB3 /* Info.plist */,
+			);
+			path = ZhizhiTests;
+			sourceTree = "<group>";
+		};
+		DAA4E5F81CCDF8B30032DDB3 /* ZhizhiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA4E5F91CCDF8B30032DDB3 /* ZhizhiUITests.swift */,
+				DAA4E5FB1CCDF8B30032DDB3 /* Info.plist */,
+			);
+			path = ZhizhiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA4E5D51CCDF8B30032DDB3 /* Zhizhi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA4E5FE1CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "Zhizhi" */;
+			buildPhases = (
+				DAA4E5D21CCDF8B30032DDB3 /* Sources */,
+				DAA4E5D31CCDF8B30032DDB3 /* Frameworks */,
+				DAA4E5D41CCDF8B30032DDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zhizhi;
+			productName = Zhizhi;
+			productReference = DAA4E5D61CCDF8B30032DDB3 /* Zhizhi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA4E5E91CCDF8B30032DDB3 /* ZhizhiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA4E6011CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiTests" */;
+			buildPhases = (
+				DAA4E5E61CCDF8B30032DDB3 /* Sources */,
+				DAA4E5E71CCDF8B30032DDB3 /* Frameworks */,
+				DAA4E5E81CCDF8B30032DDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA4E5EC1CCDF8B30032DDB3 /* PBXTargetDependency */,
+			);
+			name = ZhizhiTests;
+			productName = ZhizhiTests;
+			productReference = DAA4E5EA1CCDF8B30032DDB3 /* ZhizhiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA4E5F41CCDF8B30032DDB3 /* ZhizhiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA4E6041CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiUITests" */;
+			buildPhases = (
+				DAA4E5F11CCDF8B30032DDB3 /* Sources */,
+				DAA4E5F21CCDF8B30032DDB3 /* Frameworks */,
+				DAA4E5F31CCDF8B30032DDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA4E5F71CCDF8B30032DDB3 /* PBXTargetDependency */,
+			);
+			name = ZhizhiUITests;
+			productName = ZhizhiUITests;
+			productReference = DAA4E5F51CCDF8B30032DDB3 /* ZhizhiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA4E5CE1CCDF8B30032DDB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = marboo;
+				TargetAttributes = {
+					DAA4E5D51CCDF8B30032DDB3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DAA4E5E91CCDF8B30032DDB3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DAA4E5D51CCDF8B30032DDB3;
+					};
+					DAA4E5F41CCDF8B30032DDB3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DAA4E5D51CCDF8B30032DDB3;
+					};
+				};
+			};
+			buildConfigurationList = DAA4E5D11CCDF8B30032DDB3 /* Build configuration list for PBXProject "Zhizhi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA4E5CD1CCDF8B30032DDB3;
+			productRefGroup = DAA4E5D71CCDF8B30032DDB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA4E5D51CCDF8B30032DDB3 /* Zhizhi */,
+				DAA4E5E91CCDF8B30032DDB3 /* ZhizhiTests */,
+				DAA4E5F41CCDF8B30032DDB3 /* ZhizhiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA4E5D41CCDF8B30032DDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA4E5E41CCDF8B30032DDB3 /* LaunchScreen.storyboard in Resources */,
+				DAA4E5E11CCDF8B30032DDB3 /* Assets.xcassets in Resources */,
+				DAA4E5DF1CCDF8B30032DDB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA4E5E81CCDF8B30032DDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA4E5F31CCDF8B30032DDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA4E5D21CCDF8B30032DDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA4E5DC1CCDF8B30032DDB3 /* ViewController.swift in Sources */,
+				DAA4E5DA1CCDF8B30032DDB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA4E5E61CCDF8B30032DDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA4E5EF1CCDF8B30032DDB3 /* ZhizhiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA4E5F11CCDF8B30032DDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA4E5FA1CCDF8B30032DDB3 /* ZhizhiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAA4E5EC1CCDF8B30032DDB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA4E5D51CCDF8B30032DDB3 /* Zhizhi */;
+			targetProxy = DAA4E5EB1CCDF8B30032DDB3 /* PBXContainerItemProxy */;
+		};
+		DAA4E5F71CCDF8B30032DDB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA4E5D51CCDF8B30032DDB3 /* Zhizhi */;
+			targetProxy = DAA4E5F61CCDF8B30032DDB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAA4E5DD1CCDF8B30032DDB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA4E5DE1CCDF8B30032DDB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA4E5E21CCDF8B30032DDB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA4E5E31CCDF8B30032DDB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAA4E5FC1CCDF8B30032DDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA4E5FD1CCDF8B30032DDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA4E5FF1CCDF8B30032DDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zhizhi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.Zhizhi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAA4E6001CCDF8B30032DDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zhizhi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.Zhizhi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAA4E6021CCDF8B30032DDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhizhiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.ZhizhiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhizhi.app/Zhizhi";
+			};
+			name = Debug;
+		};
+		DAA4E6031CCDF8B30032DDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhizhiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.ZhizhiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhizhi.app/Zhizhi";
+			};
+			name = Release;
+		};
+		DAA4E6051CCDF8B30032DDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhizhiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.ZhizhiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zhizhi;
+			};
+			name = Debug;
+		};
+		DAA4E6061CCDF8B30032DDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhizhiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.marboo.ZhizhiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zhizhi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA4E5D11CCDF8B30032DDB3 /* Build configuration list for PBXProject "Zhizhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA4E5FC1CCDF8B30032DDB3 /* Debug */,
+				DAA4E5FD1CCDF8B30032DDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA4E5FE1CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "Zhizhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA4E5FF1CCDF8B30032DDB3 /* Debug */,
+				DAA4E6001CCDF8B30032DDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAA4E6011CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA4E6021CCDF8B30032DDB3 /* Debug */,
+				DAA4E6031CCDF8B30032DDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAA4E6041CCDF8B30032DDB3 /* Build configuration list for PBXNativeTarget "ZhizhiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA4E6051CCDF8B30032DDB3 /* Debug */,
+				DAA4E6061CCDF8B30032DDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA4E5CE1CCDF8B30032DDB3 /* Project object */;
+}
